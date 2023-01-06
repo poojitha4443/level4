@@ -10,7 +10,7 @@ describe("Todo List Test Suite", () => {
     const oneDay = 60 * 60 * 24 * 1000;
     [
       {
-        title: "Buy milk",
+        title: "Buy water",
         completed: false,
         dueDate: new Date(today.getTime() - 2 * oneDay).toLocaleDateString(
           "en-CA"
